@@ -54,7 +54,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="grid grid-rows-[auto_1fr] min-h-screen">
+    <div className="grid grid-rows-[auto_1fr] ">
       <div>
         <nav className="sticky border-black top-0 z-10 bg-white backdrop-filter backdrop-blur-l bg-opacity-30 k">
           <div className="mx-auto px-4">
