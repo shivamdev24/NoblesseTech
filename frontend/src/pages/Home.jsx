@@ -1,4 +1,54 @@
 import CompanyBro from "../assets/Company-bro.png"
+import HomeCard from "../components/HomeCard";
+import step1 from "../assets/step1.jpg";
+import step2 from "../assets/step2.jpg";
+import step3 from "../assets/step3.jpg";
+import step4 from "../assets/step4.jpg";
+import step1_buttom from "../assets/step1_buttom.jpg";
+import step2_buttom from "../assets/step2_buttom.jpg";
+import step3_buttom from "../assets/step3_buttom.jpg";
+import step4_buttom from "../assets/step4_buttom.jpg";
+
+const steps = [
+  {
+    id: 1,
+    title: "Ideate",
+    image: step1,
+    image_buttom: step1_buttom,
+    hoverColor: 'sky-100',
+    hoverTextColor: 'text-sky-500',
+    hoverBorderColor: 'border-sky-500',
+  },
+  {
+    id: 2,
+    title: "Design",
+    image: step2,
+    image_buttom: step2_buttom,
+    hoverColor: 'fuchsia-100',
+    hoverTextColor: 'text-purple-700',
+    hoverBorderColor: 'border-purple-700',
+  },
+  {
+    id: 3,
+    title: "Develop",
+    image: step3,
+    image_buttom: step3_buttom,
+    hoverColor: 'red-100',
+    hoverTextColor: 'text-red-500',
+    hoverBorderColor: 'border-red-500',
+
+  },
+  {
+    id: 4,
+    title: "Deploy",
+    image: step4,
+    image_buttom: step4_buttom,
+    hoverColor: 'lime-50',
+    hoverTextColor: 'text-lime-500',
+    hoverBorderColor: 'border-lime-500',
+  },
+];
+
 
 export default function Home() {
   return (
@@ -30,7 +80,30 @@ export default function Home() {
         </div>
       </section>
       <section>
-        
+        <div className="flex flex-col justify-center text-center gap-5 ">
+          <div className="italic flex flex-col gap-8">
+            <h1 className="text-6xl">Bring in your craziest product ideas</h1>
+            <h2 className="text-2xl">
+              Leave the boring work to us, and watch the magic unfold
+            </h2>
+          </div>
+          <div className="flex flex-row gap-4 w-full h-auto justify-center border p-2">
+            <div className="w-1/12 border rounded"  />
+            {steps.map((step) => (
+              <HomeCard
+              key={step.id}
+              id={step.id}
+              title={step.title}
+              image={step.image}
+              image_buttom={step.image_buttom}
+              hoverColor={step.hoverColor}
+              hoverTextColor={step.hoverTextColor}
+              hoverBorderColor={step.hoverBorderColor}
+            />
+            ))}
+              <div className="w-1/12 border rounded"  />
+          </div>
+        </div>
       </section>
     </div>
   );

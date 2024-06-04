@@ -5,7 +5,7 @@ import Home from './pages/Home';
 function App() {
 
   return (
-    <main>
+    <main className='flex flex-col gap-10'>
       <Navbar/>
       <Home/>
       <Footer/>
