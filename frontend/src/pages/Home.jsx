@@ -8,6 +8,7 @@ import step1_buttom from "../assets/step1_buttom.jpg";
 import step2_buttom from "../assets/step2_buttom.jpg";
 import step3_buttom from "../assets/step3_buttom.jpg";
 import step4_buttom from "../assets/step4_buttom.jpg";
+import Review from "../components/Review";
 
 const steps = [
   {
@@ -104,6 +105,9 @@ export default function Home() {
               <div className="w-1/12 border rounded"  />
           </div>
         </div>
+      </section>
+      <section>
+        <Review/>
       </section>
     </div>
   );
