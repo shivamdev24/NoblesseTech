@@ -8,6 +8,8 @@ import step1_buttom from "../assets/step1_buttom.jpg";
 import step2_buttom from "../assets/step2_buttom.jpg";
 import step3_buttom from "../assets/step3_buttom.jpg";
 import step4_buttom from "../assets/step4_buttom.jpg";
+// import StackCards from "../components/StackCards";
+import MainComponent from "../components/ui/card-stack.jsx"
 
 const steps = [
   {
@@ -17,7 +19,7 @@ const steps = [
     image_buttom: step1_buttom,
     hoverColor: 'sky-100',
     hoverTextColor: 'text-sky-500',
-    hoverBorderColor: 'border-sky-500',
+    hoverBorderColor: 'sky-500',
   },
   {
     id: 2,
@@ -26,7 +28,7 @@ const steps = [
     image_buttom: step2_buttom,
     hoverColor: 'fuchsia-100',
     hoverTextColor: 'text-purple-700',
-    hoverBorderColor: 'border-purple-700',
+    hoverBorderColor: 'purple-700',
   },
   {
     id: 3,
@@ -35,7 +37,7 @@ const steps = [
     image_buttom: step3_buttom,
     hoverColor: 'red-100',
     hoverTextColor: 'text-red-500',
-    hoverBorderColor: 'border-red-500',
+    hoverBorderColor: 'red-500',
 
   },
   {
@@ -48,6 +50,68 @@ const steps = [
     hoverBorderColor: 'border-lime-500',
   },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const CARDS = [
+  {
+    id: 0,
+    name: "Manu Arora",
+    designation: "Senior Software Engineer",
+    content: (
+      <p>
+        These cards are amazing, I want to use them in my project. Framer motion
+        is a godsend ngl tbh fam 🙏
+      </p>
+    ),
+    customClasses: "bg-red-500",
+    bgcolor: "bg-red-200",
+  },
+  {
+    id: 1,
+    name: "Elon Musk",
+    designation: "Senior Shitposter",
+    content: (
+      <p>
+        I dont like this Twitter thing, deleting it right away because yolo.
+        Instead, I would like to call it X.com so that it can easily be confused
+        with adult sites.
+      </p>
+    ),
+    customClasses: "bg-green-500",
+    bgcolor: "bg-green-200",
+  },
+  {
+    id: 2,
+    name: "Tyler Durden",
+    designation: "Manager Project Mayhem",
+    content: (
+      <p>
+        The first rule of Fight Club is that you do not talk about fight club.
+        The second rule of Fight club is that you DO NOT TALK about fight club.
+      </p>
+    ),
+    customClasses: "bg-blue-500",
+    bgcolor: "bg-blue-200",
+  },
+];
+
+
+
 
 
 export default function Home() {
@@ -75,7 +139,11 @@ export default function Home() {
         </div>
         <div>
           <div className="py-5">
-           <img src={CompanyBro} className="object-cover hover:scale-105 duration-500 object-bottom h-[30rem] w-full" alt="" />
+            <img
+              src={CompanyBro}
+              className="object-cover hover:scale-105 duration-500 object-bottom h-[30rem] w-full"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -88,21 +156,27 @@ export default function Home() {
             </h2>
           </div>
           <div className="flex flex-row gap-4 w-full h-auto justify-center border p-2">
-            <div className="w-1/12 border rounded"  />
+            <div className="w-1/12 border rounded" />
             {steps.map((step) => (
               <HomeCard
-              key={step.id}
-              id={step.id}
-              title={step.title}
-              image={step.image}
-              image_buttom={step.image_buttom}
-              hoverColor={step.hoverColor}
-              hoverTextColor={step.hoverTextColor}
-              hoverBorderColor={step.hoverBorderColor}
-            />
+                key={step.id}
+                id={step.id}
+                title={step.title}
+                image={step.image}
+                image_buttom={step.image_buttom}
+                hoverColor={step.hoverColor}
+                hoverTextColor={step.hoverTextColor}
+                hoverBorderColor={step.hoverBorderColor}
+              />
             ))}
-              <div className="w-1/12 border rounded"  />
+            <div className="w-1/12 border rounded" />
           </div>
+
+          <section className="h-auto ">
+            <div className=" ">
+              <MainComponent  />
+            </div>
+          </section>
         </div>
       </section>
     </div>

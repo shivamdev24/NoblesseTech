@@ -1,4 +1,15 @@
-import React from "react";
+
+
+import Mail from "../assets/mail.svg"
+import X from "../assets/x.svg"
+import Insta from "../assets/insta.svg"
+import Dribble from "../assets/dribble.svg"
+import Linkedin from "../assets/linkedin.svg"
+import Discord from "../assets/discrod.svg"
+import Pintrest from "../assets/pintrest.svg"
+
+
+
 
 function Footer() {
   return (
@@ -72,7 +83,9 @@ function Footer() {
                   className="flex  border p-2 rounded-lg bg-white hover:bg-gray-200 justify-between"
                 >
                   <p>Reach Out</p>
-                  <span>icon</span>
+                  <span>
+                    <img src={Mail} alt="" />
+                  </span>
                 </a>
               </div>
 
@@ -81,7 +94,7 @@ function Footer() {
                   className="p-3 bg-white border rounded-lg hover:bg-gray-200"
                   href="#"
                 >
-                  icon
+                  <img src={Discord} alt="" />
                 </a>
               </div>
               <div className=" flex items-center justify-center col-span-1 p-2 mr-2 -ml-2   ">
@@ -89,7 +102,7 @@ function Footer() {
                   className="p-3 bg-white border rounded-lg hover:bg-gray-200"
                   href="#"
                 >
-                  icon
+                  <img src={Pintrest} alt="" />
                 </a>
               </div>
               <div className=" flex items-center justify-center col-span-1 p-2 mr-2 -ml-2  ">
@@ -97,7 +110,7 @@ function Footer() {
                   className="p-3 bg-white border rounded-lg hover:bg-gray-200"
                   href="#"
                 >
-                  icon
+                  <img src={Dribble} alt="" />
                 </a>
               </div>
               <div className=" flex items-center justify-center col-span-1 p-2 mr-2 -ml-2   ">
@@ -105,7 +118,7 @@ function Footer() {
                   className="p-3 bg-white border rounded-lg hover:bg-gray-200"
                   href="#"
                 >
-                  icon
+                  <img src={Linkedin} alt="" />
                 </a>
               </div>
               <div className=" flex items-center justify-center col-span-1 p-2 mr-2 -ml-2 ">
@@ -113,7 +126,7 @@ function Footer() {
                   className="p-3 bg-white border rounded-lg hover:bg-gray-200"
                   href="#"
                 >
-                  icon
+                  <img src={Insta} alt="" />
                 </a>
               </div>
               <div className=" flex items-center justify-center col-span-1 p-2 mr-2 -ml-2  ">
@@ -121,7 +134,7 @@ function Footer() {
                   className="p-3 bg-white border rounded-lg hover:bg-gray-200"
                   href="#"
                 >
-                  icon
+                  <img src={X} alt="" />
                 </a>
               </div>
             </div>
