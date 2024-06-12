@@ -268,16 +268,16 @@ export default function Home() {
               duration: 0.5,
               ease: [0.4, 0.0, 0.2, 1],
             }}
-            className=" text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+            className=" text-white w-full md:w-[80%]  leading-relaxed lg:leading-snug text-center md:mx-auto "
           >
             <h1 className="text-6xl my-4">Turning Ideas into</h1>
-            <Highlight className="text-white text-3xl p-2 px-5">
+            <Highlight className="text-white text-lg lg:text-3xl p-2 px-5">
               Creative Digital Solutions
             </Highlight>
 
             <div className="mt-14">
               <h1 className="text-3xl">Key Areas of Our Expertise</h1>
-              <div className="py-5  gap-8 flex flex-wrap  items-center justify-center">
+              <div className="py-5  gap-4 flex flex-wrap  items-center justify-center">
                 <span className="py-3 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500 px-6 border bg-black   text-center rounded-full">
                   Software Development
                 </span>
