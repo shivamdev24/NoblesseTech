@@ -2,7 +2,9 @@ import Demo from "../assets/imgs/homepaage/demo.jpg";
 import Amazon from "../assets/imgs/homepaage/amazon.jpg";
 import People from "../assets/imgs/homepaage/people.jpg";
 
-import { BackgroundBeams } from "../components/ui/BackgroundBeams";
+import { motion } from "framer-motion";
+import { HeroHighlight, Highlight } from "../components/ui/HeroHighlight";
+import {InfiniteMovingCard} from "../components/ui/InfiniteMovingCard"
 
 const cardsCaseStudy = [
   {
@@ -213,39 +215,105 @@ const ourCards = [
   },
 ];
 
+
+
+
+const testimonials = [
+  {
+    quote:
+      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+    name: "Charles Dickens",
+    title: "A Tale of Two Cities",
+  },
+  {
+    quote:
+      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+    name: "William Shakespeare",
+    title: "Hamlet",
+  },
+  {
+    quote: "All that we see or seem is but a dream within a dream.",
+    name: "Edgar Allan Poe",
+    title: "A Dream Within a Dream",
+  },
+  {
+    quote:
+      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+    name: "Jane Austen",
+    title: "Pride and Prejudice",
+  },
+  {
+    quote:
+      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
+    name: "Herman Melville",
+    title: "Moby-Dick",
+  },
+];
+
 export default function Home() {
   return (
     <main>
-      <section className="h-[500px] md:h-screen overflow-hidden bg-black">
-        <div className="w-[80%] relative z-20 pt-64 md:pt-96 text-white mx-auto">
-          <span className="text-base ">NoblesseTech</span>
-          <h1 className="text-4xl font-bold sm:text-6xl ">
-            Creating value beyond the hype
-          </h1>
-          <a
-            href="#"
-            className="flex w-40 text-center hover:bg-blue-500 hover:text-white duration-500 text-gray-900 mt-6 px-4 py-2 gap-3 bg-white"
+      <section>
+        <HeroHighlight>
+          <motion.h1
+            initial={{
+              opacity: 0,
+              y: 20,
+            }}
+            animate={{
+              opacity: 1,
+              y: [20, -5, 0],
+            }}
+            transition={{
+              duration: 0.5,
+              ease: [0.4, 0.0, 0.2, 1],
+            }}
+            className=" text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
           >
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                />
-              </svg>
-            </span>
-            <span>Contact Us</span>
-          </a>
-        </div>
-        <BackgroundBeams />
+            <h1 className="text-6xl my-4">Turning Ideas into</h1>
+            <Highlight className="text-white text-3xl p-2 px-5">
+              Creative Digital Solutions
+            </Highlight>
+
+            <div className="mt-14">
+              <h1 className="text-3xl">Key Areas of Our Expertise</h1>
+              <div className="py-5  gap-8 flex flex-wrap  items-center justify-center">
+                <span className="py-3 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500 px-6 border bg-black   text-center rounded-full">
+                  Software Development
+                </span>
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500   text-center px-6 border bg-black rounded-full">
+                  App Development
+                </span>
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                  Web Development
+                </span>
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                  Ecommerce Services
+                </span>
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                  CRM Solutions
+                </span>
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                  Cloud Solutions
+                </span>
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                  AI/ML Solutions
+                </span>
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                  QA & Software Testing
+                </span>
+              </div>
+              <div className="pt-10">
+                <a
+                  href="#"
+                  className=" bg-blue-400 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-800 p-3 rounded"
+                >
+                  Let's Talk about your Business
+                </a>
+              </div>
+            </div>
+          </motion.h1>
+        </HeroHighlight>
       </section>
 
       <section className="py-20 bg-[#000000] text-white relative">
@@ -417,6 +485,38 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-black h-[30rem]">
+        <div className="w-[80%] mx-auto pt-20">
+          <div className="my-4">
+            <p className="text-center py-2 text-white">TECHNOLOGIES</p>
+            <h1 className="text-center text-3xl  text-white md:text-5xl py-4">
+              Our Technology Stack and Platforms
+            </h1>
+            <p className="text-center py-1 text-white">
+              Over 1000 experts with 22+ Years of experience in 50+ cutting-edge
+              technologies.
+            </p>
+          </div>
+          <div className="h-full  flex flex-col antialiased bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+            <InfiniteMovingCard
+              items={testimonials}
+              direction="right"
+              speed="fast"
+            />
+            <InfiniteMovingCard
+              items={testimonials}
+              direction="left"
+              speed="slow"
+            />
+            <InfiniteMovingCard
+              items={testimonials}
+              direction="right"
+              speed="normal"
+            />
           </div>
         </div>
       </section>
