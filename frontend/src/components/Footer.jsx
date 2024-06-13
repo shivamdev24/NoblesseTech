@@ -6,7 +6,7 @@
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 py-10 px-5 text-white">
+    <footer className="bg-[#121212] py-10 px-5 text-white">
       <div className="md:w-[80%] md:mx-auto">
         <div className="flex flex-col lg:flex-row justify-between border-b">
           <div className="py-10">

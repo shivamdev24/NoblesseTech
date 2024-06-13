@@ -278,28 +278,28 @@ export default function Home() {
             <div className="mt-14">
               <h1 className="text-3xl">Key Areas of Our Expertise</h1>
               <div className="py-5  gap-4 flex flex-wrap  items-center justify-center">
-                <span className="py-3 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500 px-6 border bg-black   text-center rounded-full">
+                <span className="py-3 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500 px-6 border bg-[#121212]   text-center rounded-full">
                   Software Development
                 </span>
-                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500   text-center px-6 border bg-black rounded-full">
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500   text-center px-6 border bg-[#121212] rounded-full">
                   App Development
                 </span>
-                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-[#121212] rounded-full">
                   Web Development
                 </span>
-                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-[#121212] rounded-full">
                   Ecommerce Services
                 </span>
-                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-[#121212] rounded-full">
                   CRM Solutions
                 </span>
-                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-[#121212] rounded-full">
                   Cloud Solutions
                 </span>
-                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-[#121212] rounded-full">
                   AI/ML Solutions
                 </span>
-                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-black rounded-full">
+                <span className="py-2 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500  text-center px-6 border bg-[#121212] rounded-full">
                   QA & Software Testing
                 </span>
               </div>
@@ -316,7 +316,7 @@ export default function Home() {
         </HeroHighlight>
       </section>
 
-      <section className="py-20 bg-[#000000] text-white relative">
+      <section className="py-20 bg-[#121212] text-white relative">
         <div className="md:w-[80%] md:mx-auto px-5 sm:px-0 text-center text-3xl md:text-4xl">
           <div className="md:w-[80%] text-center md:mx-auto ">
             We help clients harness the power of data and AI, modernize core
@@ -327,7 +327,7 @@ export default function Home() {
         <div className="absolute top-0  bg-gradient-to-t from-blue-900  to-transparen h-full w-full opacity-40"></div>
       </section>
 
-      <section className="py-10 bg-[#000000] text-white ">
+      <section className="py-10 bg-[#121212] text-white ">
         <div className="md:w-[80%] md:mx-auto px-5 md:px-0 text-center text-lg ">
           <div className="md:w-[60%] text-start md:mx-auto ">
             Technology is the key to outcompete. It only achieves its
@@ -342,7 +342,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="  bg-[#000000] text-white ">
+      <section className="  bg-[#121212] text-white ">
         <div className="relative py-[4rem]">
           <div className="md:w-[80%] w-full px-5 md:px-0  z-32  md:mx-auto text-center text-lg">
             <div className="flex relative items-center flex-col md:flex-wrap lg:flex-row gap-y-32 md:gap-y-5 sm:py-[5rem]  justify-evenly gap-8">
@@ -398,7 +398,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="  bg-[#000000] py-20 text-white ">
+      <section className="  bg-[#121212] py-20 text-white ">
         <div className="md:w-[80%] px-5 flex flex-col items-center z-10 md:mx-auto">
           <p className="text-center py-4">CASE STUDIES</p>
           <h1 className="text-center text-4xl  md:text-6xl py-4">
@@ -439,7 +439,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="  bg-[#000000] py-20 bg-gradient-to-r from-cyan-900 to-transparent ">
+      <section className="  bg-[#121212] py-20 bg-gradient-to-r from-cyan-900 to-transparent ">
         <div className="md:w-[80%] px-5 flex flex-col items-center md:mx-auto">
           <p className="text-center py-4 text-white">WHAT WE OFFER</p>
           <h1 className="text-center text-4xl  text-white md:text-6xl py-4">
@@ -489,7 +489,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-black h-[30rem]">
+      <section className="bg-[#121212] h-[30rem]">
         <div className="w-[80%] mx-auto pt-20">
           <div className="my-4">
             <p className="text-center py-2 text-white">TECHNOLOGIES</p>
@@ -501,7 +501,7 @@ export default function Home() {
               technologies.
             </p>
           </div>
-          <div className="h-full  flex flex-col antialiased bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+          <div className="h-full  flex flex-col antialiased bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
             <InfiniteMovingCard
               items={testimonials}
               direction="right"
@@ -521,7 +521,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="  bg-[#000000] py-20  ">
+      <section className="  bg-[#121212] py-20  ">
         <div className="md:w-[80%] px-5 flex flex-col items-center md:mx-auto">
           <p className="text-center py-4 text-white">OUR ECOSYSTEM</p>
           <h1 className="text-center text-4xl  text-white md:text-6xl py-4">
@@ -611,7 +611,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="  bg-[#000000] py-20  ">
+      <section className="  bg-[#121212] py-20  ">
         <div className="md:w-[80%] px-5 md:mx-auto">
           <p className="text-center py-4 text-white">FEATURED TECH SOLUTIONS</p>
           <h1 className="text-center text-4xl  text-white md:text-6xl py-4">
@@ -657,7 +657,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="  bg-[#000000] py-20  ">
+      <section className="  bg-[#121212] py-20  ">
         <div className="md:w-[80%] px-5 md:mx-auto">
           <p className="text-center py-4 text-white">OUR PEOPLE</p>
           <h1 className="text-center text-4xl  text-white md:text-6xl py-4">
@@ -711,8 +711,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-900 h-56">
-        <div className="md:w-[80%] px-5 md:mx-auto">
+      <section className="bg-gray-900 h-6">
+        <div className="md:w-[80%]  px-5 md:mx-auto">
           <div className="flex flex-col md:flex-row md:items-center py-6 border-b  justify-between ">
             <div>
               <p className="text-3xl sm:text-4xl text-white">

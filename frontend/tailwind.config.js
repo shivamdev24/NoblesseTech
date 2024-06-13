@@ -17,6 +17,7 @@ export default {
     extend: {
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
+        
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
@@ -26,6 +27,7 @@ export default {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+         
         meteor: {
           "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
           "80%": { opacity: "1" },
