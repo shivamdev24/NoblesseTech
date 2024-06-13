@@ -1,7 +1,7 @@
 
 
 import { useState } from "react";
-
+import {Link} from "react-router-dom"
 
 export default function Navbar() {
 
@@ -59,20 +59,20 @@ setOpen(!open);
             <div className=" hidden lg:block">
               <ul className="flex gap-4 ">
                 <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-[#121212] hover:border-purple-200 py-6 duration-300">
-                  <a href="#">How We Help Clients</a>
+                  <Link to="/">How We Help Clients</Link>
                 </li>
                 <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-[#121212] hover:border-purple-200 py-6 duration-300">
                   {" "}
-                  <a href="#">Our Insights</a>
+                  <Link to="/">Our Insights</Link>
                 </li>
                 <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-[#121212] hover:border-purple-200 py-6 duration-300">
-                  <a href="#">Our People</a>
+                  <Link to="/">Our People</Link>
                 </li>
                 <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-[#121212] hover:border-purple-200 py-6 duration-300">
-                  <a href="#">Case Studies</a>
+                  <Link to="/">Case Studies</Link>
                 </li>
                 <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-[#121212] hover:border-purple-200 py-6 duration-300">
-                  <a href="#">Contact Us</a>
+                  <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
@@ -103,20 +103,20 @@ setOpen(!open);
                 <div className="fixed h-full w-full z-[-1] bg-[#121212] opacity-40"></div>
                 <ul className="flex flex-col gap-4 w-56 px-5 z-20 bg-gray-900 h-full">
                   <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-gray-900 hover:border-purple-200 py-6 duration-300">
-                    <a href="#">How We Help Clients</a>
+                    <Link to="/">How We Help Clients</Link>
                   </li>
                   <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-gray-900 hover:border-purple-200 py-6 duration-300">
                     {" "}
-                    <a href="#">Our Insights</a>
+                    <Link to="/">Our Insights</Link>
                   </li>
                   <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-gray-900 hover:border-purple-200 py-6 duration-300">
-                    <a href="#">Our People</a>
+                    <Link to="/">Our People</Link>
                   </li>
                   <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-gray-900 hover:border-purple-200 py-6 duration-300">
-                    <a href="#">Case Studies</a>
+                    <Link to="/">Case Studies</Link>
                   </li>
                   <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-gray-900 hover:border-purple-200 py-6 duration-300">
-                    <a href="#">Contact Us</a>
+                    <Link to="contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
