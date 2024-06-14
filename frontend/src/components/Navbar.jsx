@@ -1,15 +1,33 @@
 
-
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import {Link} from "react-router-dom"
 
 export default function Navbar() {
 
-  const [open, setOpen] = useState(false);
+   const [open, setOpen] = useState(false);
+   const menuRef = useRef(null);
 
-  const toggleMenu = () => {
-setOpen(!open);
-  }
+   const toggleMenu = () => {
+     setOpen(!open);
+   };
+
+   const handleClickOutside = (event) => {
+     if (menuRef.current && !menuRef.current.contains(event.target)) {
+       setOpen(false);
+     }
+   };
+
+   useEffect(() => {
+     if (open) {
+       document.addEventListener("mousedown", handleClickOutside);
+     } else {
+       document.removeEventListener("mousedown", handleClickOutside);
+     }
+
+     return () => {
+       document.removeEventListener("mousedown", handleClickOutside);
+     };
+   }, [open]);
 
   return (
     <header>
@@ -69,7 +87,7 @@ setOpen(!open);
                   <Link to="/">Our People</Link>
                 </li>
                 <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-[#121212] hover:border-purple-200 py-6 duration-300">
-                  <Link to="/">Case Studies</Link>
+                  <Link to="/blog">Blog</Link>
                 </li>
                 <li className="hover:text-purple-200 hover:border-b-4 border-b-4 border-[#121212] hover:border-purple-200 py-6 duration-300">
                   <Link to="/contact">Contact Us</Link>
