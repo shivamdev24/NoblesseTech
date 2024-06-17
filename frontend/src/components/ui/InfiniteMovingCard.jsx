@@ -81,12 +81,15 @@ export const InfiniteMovingCard = ({
       >
         {items.map((item, idx) => (
           <li
-            className=" relative rounded border bg-white  border-slate-700 px-8 py-2 "
+            className=" relative rounded border bg-white  border-slate-200 px-8 py-2 "
             key={item.name}
           >
             <div className="relative z-20  ">
-              <span className="">
-                <span className=" text-sm text-center text-gray-900 font-normal">
+              <span className="flex gap-2 ">
+                <span>
+                  {item.svg}
+                </span>
+                <span className=" text-sm text-center text-gray-500 font-normal">
                   {item.name}
                 </span>
               </span>

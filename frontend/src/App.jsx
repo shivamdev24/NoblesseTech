@@ -5,11 +5,11 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <main className="flex flex-col">
+    <div className="flex flex-col">
       <Navbar />
       <Outlet />
       <Footer />
-    </main>
+    </div>
   );
   
 }

@@ -8,7 +8,7 @@ export default function Blog() {
         <div>App development</div>
         <div>Software development</div>
         <div>Cloud Computing</div>
-        <div>Data engineering</div>
+        <div>Data engineering</div> 
         <div>Machine Learning</div>
       </div>
     </div>
