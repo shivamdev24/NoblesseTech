@@ -159,7 +159,7 @@ export default function Navbar() {
                         className={({ isActive }) =>
                           isActive
                             ? "text-blue-500 bg-blue-100  rounded-md px-3 py-2 text-sm font-medium"
-                            : "text-gray-700 hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
+                            : "text-gray-900 hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
                         }
                       >
                         {item.name}
@@ -170,7 +170,7 @@ export default function Navbar() {
               </div>
               <div className=" flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-600  hover:text-blue-500  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-900  hover:text-blue-500  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
