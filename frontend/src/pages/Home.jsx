@@ -1,31 +1,24 @@
-import Demo from "../assets/imgs/homepaage/demo.jpg";
-import Amazon from "../assets/imgs/homepaage/amazon.jpg";
-import People from "../assets/imgs/homepaage/people.jpg";
+import Trucking from "../assets/imgs/images.jpeg";
+import Helpdesk from "../assets/imgs/helpdesk.jpeg";
 
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "../components/ui/HeroHighlight";
-import {InfiniteMovingCard} from "../components/ui/InfiniteMovingCard"
+import { InfiniteMovingCard } from "../components/ui/InfiniteMovingCard";
+import { Link } from "react-router-dom";
 
 const cardsCaseStudy = [
   {
-    img: Demo,
-    location: "Medical Equipment",
-    path: "ShelvesTech",
-    link: "/",
-  },
-  {
-    img: Demo,
+    img: Trucking,
     location: "",
-    path: "TruckingTool",
+    path: "Trucking & Logistics",
     link: "/",
   },
   {
-    img: Demo,
+    img: Helpdesk,
     location: "",
     path: "Hepldesk (Ticketing Tool)",
     link: "/",
   },
-  
 ];
 
 // const ecoSystemCards = [
@@ -70,47 +63,23 @@ const cardsCaseStudy = [
 const techCards = [
   {
     path: "/",
-    heading: "Unlock the power of AI",
-    description: (
-      <p>
-        QuantumBlack, AI by McKinsey helps organizations transform faster,
-        innovate smarter, and anticipate the future, unlocking the power of AI
-        to <b>reinvent themselves from the ground up.</b>
-      </p>
-    ),
+    heading: "Customized Solutions for your business needs",
+    img: "https://img.freepik.com/free-vector/innovation-concept-illustration_114360-5768.jpg?size=626&ext=jpg&ga=GA1.1.635363915.1718627588&semt=ais_user",
   },
   {
     path: "/",
-    heading: "Unlock the power of AI",
-    description: (
-      <p>
-        QuantumBlack, AI by McKinsey helps organizations transform faster,
-        innovate smarter, and anticipate the future, unlocking the power of AI
-        to <b>reinvent themselves from the ground up.</b>
-      </p>
-    ),
+    heading: "Seamless Integration with Your Existing Systems",
+    img: "https://img.freepik.com/free-vector/web-programming-analytics-graph-flat-style-vector-illustration_1284-42939.jpg?t=st=1718719554~exp=1718723154~hmac=322130f22c0021784e2c7f1e601377386df79c068668af1c0784ab8981a66fa4&w=740",
   },
   {
     path: "/",
-    heading: "Unlock the power of AI",
-    description: (
-      <p>
-        QuantumBlack, AI by McKinsey helps organizations transform faster,
-        innovate smarter, and anticipate the future, unlocking the power of AI
-        to <b>reinvent themselves from the ground up.</b>
-      </p>
-    ),
+    heading: "Cutting-Edge Technologies",
+    img: "https://img.freepik.com/free-vector/flat-hand-drawn-people-analyzing-growth-chart-illustration_23-2148859389.jpg?t=st=1718719673~exp=1718723273~hmac=6aeedd269bfeb679bfa4dada8f608ce8f62db7c8cb59b6320693446f55be7b25&w=900",
   },
   {
     path: "/",
-    heading: "Unlock the power of AI",
-    description: (
-      <p>
-        QuantumBlack, AI by McKinsey helps organizations transform faster,
-        innovate smarter, and anticipate the future, unlocking the power of AI
-        to <b>reinvent themselves from the ground up.</b>
-      </p>
-    ),
+    heading: "Cross-Platform Development",
+    img: "https://img.freepik.com/free-vector/ui-ux-designers-isometric-composition-with-small-people-creating-custom-design-web-site-3d-vector-illustration_1284-68939.jpg?t=st=1718719727~exp=1718723327~hmac=23d098e9b34761b4020255a85cc8c8e2068ef765795e5bf36e944928bf16ec50&w=740",
   },
 ];
 
@@ -198,10 +167,6 @@ const techCards = [
 //   },
 // ];
 
-
-
-
-
 const testimonials = [
   {
     name: "Java",
@@ -274,10 +239,7 @@ const testimonials = [
     name: "Julia",
     svg: "https://www.vectorlogo.zone/logos/julialang/julialang-icon.svg",
   },
-  
 ];
-
-
 
 export default function Home() {
   return (
@@ -335,12 +297,12 @@ export default function Home() {
                 </span>
               </div>
               <div className="pt-10">
-                <a
-                  href="#"
+                <Link
+                  to="contact"
                   className=" bg-blue-400 hover:bg-gradient-to-r font-bold text-white hover:from-indigo-500 hover:to-purple-500 duration-500 p-3 px-6 rounded"
                 >
                   Let's talk about your business
-                </a>
+                </Link>
               </div>
             </div>
           </motion.h1>
@@ -348,46 +310,40 @@ export default function Home() {
       </section>
 
       <section className="py-20 bg-black text-white relative">
-        <div className="md:w-[80%] md:mx-auto px-5 sm:px-0 text-center text-3xl md:text-4xl">
-          <div className="md:w-[80%] relative z-20 text-center md:mx-auto ">
-            We help clients harness the power of data and AI, modernize core
-            technology, build new digital businesses, and fuel growth.
-          </div>
+        <div className="md:w-[90%] md:mx-auto px-5 sm:px-0 text-center ">
+          <h1 className="md:w-[90%] relative z-20 text-center md:mx-auto font-bold text-3xl md:text-5xl ">
+            Boost Your business with the Best IT Company around.
+          </h1>
+          <h3 className="md:w-[80%] relative z-20 text-center text-xl md:text-2xl md:mx-auto ">
+            We offer a wide range of software development services, to match
+            your business needs and goals with unbeatable cost.
+          </h3>
         </div>
 
         <div className="absolute top-0  z-1 bg-gradient-to-b from-black  to-blue-900 h-full w-full opacity-40"></div>
       </section>
 
-      <section className="  bg-white py-20 text-black ">
-        <div className="md:w-[80%] px-5 flex flex-col items-center z-10 md:mx-auto">
+      <section className="  bg-white py-8 lg:py-20 text-black ">
+        <div className="md:w-[80%] px-5 flex flex-col items-center justify-center z-10 md:mx-auto">
           <p className="text-center py-4">CASE STUDIES</p>
-          <h1 className="text-center text-4xl  md:text-6xl py-4">
+          <h1 className="text-center text-3xl  md:text-5xl pb-6">
             Technology’s potential—realized
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3  gap-4">
+          <div className="flex flex-wrap    gap-6  ">
             {cardsCaseStudy.map((items, index) => (
               <div
                 key={index}
-                className="p-4 hover:shadow-blue-300  hover:bg-white hover:text-black hover:scale-105 duration-500 hover:shadow-lg"
+                className="rounded overflow-hidden hover:shadow-gray-300 border border-gray-200 h-[35vh] w-full lg:w-[25vw] flex flex-col justify-center items-center hover:bg-white hover:text-black text-gray-600 hover:scale-105 duration-500 hover:shadow-lg"
               >
-                <img src={items.img} alt="" />
+                <img src={items.img} className="object-cover" alt="" />
 
-                <div className="mt-3">
-                  <p className="italic"> {items.location} </p>
-                  <a
-                    href="#"
-                    className="hover:text-blue-500 hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    {items.path}{" "}
-                  </a>
+                <div className="mt-3 p-2">
+                  <p className="text-base "> {items.path} </p>
                 </div>
               </div>
             ))}
           </div>
-          <div className="flex justify-center mt-10">
+          {/* <div className="flex justify-center mt-10">
             <a
               href="#"
               className=" border px-8 py-3 hover:bg-blue-500 hover:text-white duration-300 hover:border-blue-500"
@@ -396,52 +352,32 @@ export default function Home() {
             >
               See all case studies
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
-      <section className="  bg-gray-100 py-20 ">
+      <section className="  bg-gray-100 py-8 lg:py-20 ">
         <div className="md:w-[80%] px-5 flex flex-col items-center md:mx-auto">
           <p className="text-center py-4 text-black">WHAT WE OFFER</p>
           <h1 className="text-center text-4xl  text-black md:text-6xl py-4">
             Helping our clients outcompete with technology
           </h1>
-          <p className="text-start md:text-center text-black py-4">
-            McKinsey Digital brings together teams of experts in technology,
-            strategy, and industry, plus a global network of partners to help
-            clients deliver value at scale.
+          <p className="text-start md:text-center text-xl text-black py-4">
+            What make us Different?
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-8">
             {techCards.map((items, index) => (
               <div
                 key={index}
-                className="p-4 hover:shadow-blue-100 h-auto   text-black hover:bg-white hover:text-black hover:scale-105 duration-500 hover:shadow-lg"
+                className="overflow-hidden hover:shadow-blue-100   border border-gray-200 h-auto rounded text-gray-500 hover:bg-blue-100  hover:text-blue-600  hover:scale-105 flex flex-col items-center justify-between gap-2 duration-500 hover:shadow-lg"
               >
-                <a
-                  href={items.path}
-                  className="flex gap-1 hover:text-blue-500 hover:underline text-lg"
-                >
+                <img
+                  src={items.img}
+                  className="w-full md:h-56 md:object-cover"
+                  alt=""
+                />
+                <div className="flex gap-1 px-5 py-1 text-base">
                   {" "}
-                  <span>{items.heading}</span>{" "}
-                  <span className="text-blue-500 ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                      />
-                    </svg>
-                  </span>{" "}
-                </a>
-
-                <div className="mt-3">
-                  <p className="italic "> {items.description} </p>
+                  <span>{items.heading}</span>
                 </div>
               </div>
             ))}
