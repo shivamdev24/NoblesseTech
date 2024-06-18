@@ -299,13 +299,15 @@ export default function Home() {
             }}
             className=" text-black w-full md:w-[80%]  leading-relaxed lg:leading-snug text-center md:mx-auto "
           >
-            <h1 className="text-6xl my-4">Turning Ideas into</h1>
+            <h1 className="text-6xl my-4 text-white">Turning Ideas into</h1>
             <Highlight className="text-white text-lg lg:text-3xl p-2 px-5">
               Creative Digital Solutions
             </Highlight>
 
             <div className="mt-14">
-              <h1 className="text-3xl">Key Areas of Our Expertise</h1>
+              <h1 className="text-3xl text-white">
+                Key Areas of Our Expertise
+              </h1>
               <div className="py-5  gap-4 flex flex-wrap  items-center justify-center">
                 <span className="py-3 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500 px-6 border bg-white font-bold  hover:text-white text-center rounded-full">
                   Software Development
@@ -337,7 +339,7 @@ export default function Home() {
                   href="#"
                   className=" bg-blue-400 hover:bg-gradient-to-r font-bold text-white hover:from-indigo-500 hover:to-purple-500 duration-500 p-3 px-6 rounded"
                 >
-                  Let's Talk about your Business
+                  Let's talk about your business
                 </a>
               </div>
             </div>

@@ -159,7 +159,7 @@ export default function Navbar() {
                         className={({ isActive }) =>
                           isActive
                             ? "text-blue-500 bg-blue-100  rounded-md px-3 py-2 text-sm font-medium"
-                            : "text-gray-900 hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
+                            : "text-gray-800 hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
                         }
                       >
                         {item.name}
@@ -192,7 +192,7 @@ export default function Navbar() {
                   className={({ isActive }) =>
                     isActive
                       ? "text-blue-500 bg-blue-100 rounded-md px-3 py-2 text-sm font-medium"
-                      : "text-gray-300  hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-700  hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
                   }
                 >
                   {item.name}
