@@ -355,7 +355,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute top-0  z-1 bg-gradient-to-b from-purple-500  to-blue-500 h-full w-full opacity-40"></div>
+        <div className="absolute top-0  z-1 bg-gradient-to-b from-black  to-blue-900 h-full w-full opacity-40"></div>
       </section>
 
       <section className="  bg-white py-20 text-black ">

@@ -1,5 +1,4 @@
-
-
+import { Link } from "react-router-dom";
 
 
 
@@ -34,15 +33,15 @@ function Footer() {
           </div>
           <div className="flex flex-col justify-end py-10 text-xs sm:text-base gap-5">
             <div className="flex justify-end gap-5 ">
-              <a href="#">Contact Us</a>
-              <a href="#">FAQ</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of use</a>
+              <Link to="/contact">Contact Us</Link>
+              <Link to="/service">Service</Link>
+              <Link to="/">Privacy Policy</Link>
+              <Link to="/">Terms of use</Link>
             </div>
-            <div className="flex gap-7 text-xs sm:text-base justify-end">
+            {/* <div className="flex gap-7 text-xs sm:text-base justify-end">
               <a href="#">Local language information</a>
               <a href="#">Accessibility statement</a>
-            </div>
+            </div> */}
 
             <div>
               <div className="flex justify-end  text-white gap-4 ">
