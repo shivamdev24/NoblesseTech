@@ -205,96 +205,76 @@ const techCards = [
 const testimonials = [
   {
     name: "Java",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/java/java-ar21.svg",
   },
   {
     name: "Kotlin",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
   },
   {
     name: "Swift",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/swift/swift-icon.svg",
   },
   {
     name: "Objective-C",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/apple_objectivec/apple_objectivec-icon.svg",
   },
   {
     name: "Dart",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg",
   },
   {
     name: "JavaScript",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
   },
   {
     name: "TypeScript",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
   },
-  {
-    name: "C#",
-    svg: "O",
-  },
+
   {
     name: "Python",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
   },
-  {
-    name: "C++",
-    svg: "O",
-  },
-  {
-    name: "C",
-    svg: "O",
-  },
+
   {
     name: "Go",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/golang/golang-official.svg",
   },
   {
     name: "Rust",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/rust-lang/rust-lang-icon.svg",
   },
   {
     name: "Ruby",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-icon.svg",
   },
   {
     name: "PHP",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/php/php-ar21.svg",
   },
   {
     name: "Bash",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg",
   },
-  {
-    name: "Shell scripting",
-    svg: "O",
-  },
-  {
-    name: "PowerShell",
-    svg: "O",
-  },
+
   {
     name: "SQL",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
   },
   {
-    name: "Scala",
-    svg: "O",
+    name: "MongoDB",
+    svg: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
   },
   {
-    name: "R",
-    svg: "O",
+    name: "PostgreSQL",
+    svg: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
   },
   {
     name: "Julia",
-    svg: "O",
+    svg: "https://www.vectorlogo.zone/logos/julialang/julialang-icon.svg",
   },
-  {
-    name: "MATLAB",
-    svg: "O",
-  }
+  
 ];
 
 
@@ -317,7 +297,7 @@ export default function Home() {
               duration: 0.5,
               ease: [0.4, 0.0, 0.2, 1],
             }}
-            className=" text-white w-full md:w-[80%]  leading-relaxed lg:leading-snug text-center md:mx-auto "
+            className=" text-black w-full md:w-[80%]  leading-relaxed lg:leading-snug text-center md:mx-auto "
           >
             <h1 className="text-6xl my-4">Turning Ideas into</h1>
             <Highlight className="text-white text-lg lg:text-3xl p-2 px-5">
@@ -326,7 +306,7 @@ export default function Home() {
 
             <div className="mt-14">
               <h1 className="text-3xl">Key Areas of Our Expertise</h1>
-              <div className="py-5  gap-4 flex flex-wrap text-black  items-center justify-center">
+              <div className="py-5  gap-4 flex flex-wrap  items-center justify-center">
                 <span className="py-3 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-300 duration-500 px-6 border bg-white font-bold  hover:text-white text-center rounded-full">
                   Software Development
                 </span>
@@ -493,7 +473,7 @@ export default function Home() {
             <InfiniteMovingCard
               items={testimonials}
               direction="right"
-              speed="slow"
+              speed="normal"
             />
           </div>
         </div>

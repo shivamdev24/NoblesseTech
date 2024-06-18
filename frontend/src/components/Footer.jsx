@@ -46,7 +46,7 @@ function Footer() {
 
             <div>
               <div className="flex justify-end  text-white gap-4 ">
-                <a href="#">
+                <a href="https://x.com/noblessetech" target="_blank">
                   <span className="[&>svg]:h-5 [&>svg]:w-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ function Footer() {
                   </span>{" "}
                 </a>
 
-                <a href="#">
+                <a href="https://wa.me/+918827015401" target="_blank">
                   <span className="[&>svg]:h-5 [&>svg]:w-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,10 @@ function Footer() {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/company/noblessetech/"
+                  target="_blank"
+                >
                   <span className="[&>svg]:h-5 [&>svg]:w-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +83,10 @@ function Footer() {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.instagram.com/noblessetech"
+                  target="_blank"
+                >
                   <span className="[&>svg]:h-5 [&>svg]:w-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +97,10 @@ function Footer() {
                     </svg>
                   </span>
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61559964260053"
+                  target="_blank"
+                >
                   <span className="[&>svg]:h-5 [&>svg]:w-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

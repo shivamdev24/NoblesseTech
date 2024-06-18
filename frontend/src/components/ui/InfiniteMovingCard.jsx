@@ -85,10 +85,8 @@ export const InfiniteMovingCard = ({
             key={item.name}
           >
             <div className="relative z-20  ">
-              <span className="flex gap-2 ">
-                <span>
-                  {item.svg}
-                </span>
+              <span className="flex gap-2 items-center">
+                <img src={item.svg} className="w-8" alt="" />
                 <span className=" text-sm text-center text-gray-500 font-normal">
                   {item.name}
                 </span>

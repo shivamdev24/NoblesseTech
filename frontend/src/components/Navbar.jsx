@@ -20,20 +20,20 @@
 //   useEffect(() => {
 //     if (open) {
 //       document.addEventListener("mousedown", handleClickOutside);
-
-//       console.log("add listner");
+//     } else {
+//       document.removeEventListener("mousedown", handleClickOutside);
 //     }
 
 //     return () => {
 //       document.removeEventListener("mousedown", handleClickOutside);
 //     };
-//   }, [handleClickOutside]);
+//   }, [open]);
 
 //   return (
 //     <header>
 //       <nav className="fixed w-full z-50">
 //         <div className="flex justify-between px-6 sm:px-10 py-3 bg-gray-100 text-black drop-shadow-sm items-center">
-//           <div className="w-full flex justify-between">
+//           <div className="flex items-center justify-around gap-6">
 //             <div className="lg:hidden" onClick={toggleMenu}>
 //               {open ? (
 //                 <svg
@@ -93,7 +93,7 @@
 
 //           <div ref={menuRef}>
 //             {open && (
-//               <div className="fixed top-12 z-50  md:top-20 right-0 w-56 h-full">
+//               <div className="fixed top-12 z-50  md:top-20 left-0 w-56 h-full">
 //                 <ul className="flex flex-col pb-10 gap-1 w-64 px-5 z-20  h-screen bg-white">
 //                   <li className="hover:text-blue-500 hover:border-b-4 border-b-4 border-gray-100 hover:border-blue-500 py-3  duration-300">
 //                     <Link to="/">Home</Link>
@@ -119,26 +119,18 @@
 // }
 
 
-
-import { Fragment } from "react";
 import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
-  Transition,
 } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, NavLink } from "react-router-dom";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Home", href: "/" },
+  { name: "Service", href: "/service" },
+  { name: "Contact us", href: "/contact" },
 ];
 
 function classNames(...classes) {
@@ -154,19 +146,21 @@ export default function Navbar() {
             <div className="  flex  h-16 items-center justify-between">
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <Link to="/">NoblesseTech</Link>
+                  <Link to="/" className="font-bold text-2xl">
+                    NoblesseTech
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <NavLink
                         key={item.name}
-                        href={item.href}
-                        className={`isActive
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"`}
-                        aria-current={item.current ? "page" : undefined}
+                        to={item.href}
+                        className={({ isActive }) =>
+                          isActive
+                            ? "text-blue-500 bg-blue-100  rounded-md px-3 py-2 text-sm font-medium"
+                            : "text-gray-700 hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
+                        }
                       >
                         {item.name}
                       </NavLink>
@@ -190,22 +184,19 @@ export default function Navbar() {
           </div>
 
           <DisclosurePanel className="sm:hidden h-screen w-64 fixed top-16 right-0 bg-white z-30">
-            <div className=" px-2 pt-5 ">
+            <div className=" px-2 pt-5 flex flex-col">
               {navigation.map((item) => (
-                <DisclosureButton
+                <NavLink
                   key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
+                  to={item.href}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-blue-500 bg-blue-100 rounded-md px-3 py-2 text-sm font-medium"
+                      : "text-gray-300  hover:text-blue-500 rounded-md px-3 py-2 text-sm font-medium"
+                  }
                 >
                   {item.name}
-                </DisclosureButton>
+                </NavLink>
               ))}
             </div>
           </DisclosurePanel>

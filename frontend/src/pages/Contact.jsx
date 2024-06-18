@@ -23,20 +23,80 @@ function Contact() {
                 alt=""
               /> */}
 
-              <div className="flex flex-col text-lg">
-                <a href="mailto:">shelvessetech@gmail.com</a>
-                <a href="">shelvessetech.com</a>
-                <a href="">Address</a>
+              <div className="flex flex-col gap-3 text-lg">
+                <a
+                  href="mailto:admin@noblessetech.com"
+                  className="hover:text-red-500 flex gap-2"
+                >
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/5968/5968534.png"
+                    className="w-6"
+                    alt=""
+                  />
+                  <span>admin@noblessetech.com</span>
+                </a>
+                <a
+                  href="http://noblessetech.com"
+                  className="flex gap-2 hover:text-blue-500"
+                >
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/256/9821/9821349.png"
+                    className="w-6"
+                    alt=""
+                  />
+                  <span>NoblesseTech.com</span>
+                </a>
                 <div className="flex gap-2">
-                  <a href="http://instgram">Insta</a>
-                  <a href="http://instgram">Facebook</a>
-                  <a href="http://instgram">LinkedIn</a>
-                  <a href="http://instgram">X</a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61559964260053"
+                    target="_blank"
+                  >
+                    <img
+                      className="w-10"
+                      src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/noblessetech"
+                    target="_blank"
+                  >
+                    <img
+                      className="w-10"
+                      src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
+                      alt=""
+                    />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/noblessetech/"
+                    target="_blank"
+                  >
+                    <img
+                      className="w-10"
+                      src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                      alt=""
+                    />
+                  </a>
+                  <a href="https://x.com/noblessetech" target="_blank">
+                    <img
+                      className="w-10"
+                      src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png"
+                      alt=""
+                    />
+                  </a>
+
+                  <a href="https://wa.me/+918827015401" target="_blank">
+                    <img
+                      className="w-10"
+                      src="https://cdn-icons-png.flaticon.com/128/733/733585.png"
+                      alt=""
+                    />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="lg:w-[60%] py-20 overflow-hidden  h-full">
+          <div className="lg:w-[60%] py-20 overflow-hidden w-full  h-full">
             <form>
               <div className="flex flex-col gap-4 w-full px-10">
                 <p className="font-bold">
@@ -105,6 +165,7 @@ function Contact() {
           <h1 className="text-center text-3xl font-bold mt-4">
             Talk To The Experts And See How Can We Help
           </h1>
+
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 mt-5">
             <div className="bg-white flex flex-col gap-1 text-black border border-gray-200  hover:bg-gray-950 hover:text-white duration-500 w-full lg:w-[25rem] p-4 rounded">
               <h1 className="text-2xl font-bold">
@@ -114,22 +175,24 @@ function Contact() {
                 Whether you need support, have inquiries, or just want to learn
                 more about what we do, feel free to give us a call.
               </p>
-              <div className="text-gray-400 font-semibold">
+              <p className="text-sm ">admin@noblessetech.com</p>
+              <div className=" font-semibold">
                 <span>Call us : </span>
-                <span>+91 0000000000</span>
+                <span>+91 88270 15401</span>
               </div>
             </div>
             <div className="bg-white flex flex-col gap-1 border text-black border-gray-200 hover:bg-gray-950 hover:text-white duration-500   w-full lg:w-[25rem] p-4 rounded">
               <h1 className="text-2xl font-bold">
-                Ready to talk? We're just a phone call away!
+                Need Support? We're just a phone call away!
               </h1>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-400 ">
                 Whether you need support, have inquiries, or just want to learn
                 more about what we do, feel free to give us a call.
               </p>
-              <div className="text-gray-400  font-semibold">
+              <p className="text-sm ">admin@noblessetech.com</p>
+              <div className=" font-semibold">
                 <span>Call us : </span>
-                <span>+91 0000000000</span>
+                <span>+91 88270 15401</span>
               </div>
             </div>
           </div>
