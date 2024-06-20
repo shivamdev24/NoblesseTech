@@ -8,6 +8,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, NavLink } from "react-router-dom";
+import Logo from "../assets/imgs/Logo.png"
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -19,15 +20,19 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white mx-auto shadow fixed top-0 w-full z-40">
+    <Disclosure
+      as="nav"
+      className="bg-white mx-auto shadow fixed top-0 w-full z-40"
+    >
       {({ open }) => (
         <>
           <div className="  bg-white max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="  flex  h-16 items-center justify-between">
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <Link to="/" className="font-bold text-2xl">
-                    NoblesseTech
+                  <Link to="/" className="font-bold text-sm flex items-end">
+                    <img src={Logo} className="w-8" alt="" />
+                    <span>NoblesseTech</span>
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">

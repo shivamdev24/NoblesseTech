@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { ClockIcon, ChartBarIcon, LightBulbIcon ,ArrowsUpDownIcon , TrophyIcon,
-FaceSmileIcon,MegaPhoneIcon
+
  } from "@heroicons/react/24/solid";
 
 
@@ -66,7 +66,7 @@ const WebDevelopment = [
       "Ensure your website adapts seamlessly to all devices for optimal reach.",
   },
   {
-    Icon: "Gear" <MegaPhoneIcon className="w-14 " />,
+    Icon: "https://cdn-icons-png.flaticon.com/128/484/484613.png",
     Heading: "Content Management System (CMS)",
     Description:
       "Empower you to easily manage and update your website content.",
@@ -404,11 +404,11 @@ function Service() {
               {WebDevelopment.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white  text-black flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
                     {" "}
-                    <p>{item.Icon}</p>
+                    <img src={item.Icon} className='w-14' alt="Web Development Image" />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
