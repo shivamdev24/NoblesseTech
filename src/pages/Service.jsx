@@ -74,88 +74,88 @@ const WebDevelopment = [
 ];
 const CRM = [
   {
-    Icon: "Database",
+    Icon: "https://cdn-icons-png.flaticon.com/128/658/658099.png",
     Heading: "Improved Data Management",
     Description:
       "Centralize customer data for a holistic view of your interactions.",
   },
   {
-    Icon: "Two Shaking Hands",
+    Icon: "https://cdn-icons-png.flaticon.com/128/8879/8879568.png",
     Heading: "Enhanced Collaboration",
     Description:
       "Break down silos and enable efficient communication across teams.",
   },
   {
-    Icon: " Play Button",
+    Icon: " https://cdn-icons-png.flaticon.com/128/527/527995.png",
     Heading: "Automated Workflows",
     Description: "utomate repetitive tasks and save valuable time.",
   },
   {
-    Icon: "Smiley Face with Heart",
+    Icon: "https://cdn-icons-png.flaticon.com/128/3634/3634313.png",
     Heading: "Increased Customer Satisfaction",
     Description: "Provide more personalized and efficient customer service.",
   },
   {
-    Icon: "Light Bulb",
+    Icon: "https://cdn-icons-png.flaticon.com/128/566/566410.png",
     Heading: "Data-Driven Decision Making ",
     Description: "Gain valuable insights from unified customer data.",
   },
 ];
 const GenerativeAI = [
   {
-    Icon: "Pencil",
+    Icon: "https://cdn-icons-png.flaticon.com/128/1828/1828911.png",
     Heading: "Enhanced Content Creation",
     Description: "Generate original and engaging content at scale.",
   },
   {
-    Icon: "Gift Box",
+    Icon: "https://cdn-icons-png.flaticon.com/128/66/66834.png",
     Heading: "Personalized Customer Experiences ",
     Description:
       "Personalize website content, marketing messages, and product recommendations.",
   },
   {
-    Icon: "Rocket",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2285/2285551.png",
     Heading: "Faster Design Iteration ",
     Description: "Streamline design processes with AI-powered tools.",
   },
   {
-    Icon: "Light Bulb",
+    Icon: "https://cdn-icons-png.flaticon.com/128/566/566410.png",
     Heading: "Uncover New Ideas and Products",
     Description: "Explore innovative possibilities with AI-generated content.",
   },
   {
-    Icon: "Clock",
+    Icon: "https://cdn-icons-png.flaticon.com/128/3240/3240587.png",
     Heading: "Increased Efficiency and Productivity",
     Description: "Automate repetitive content creation tasks.",
   },
 ];
 const CustomCRM = [
   {
-    Icon: "Thumbs Up",
+    Icon: "https://cdn-icons-png.flaticon.com/128/880/880605.png",
     Heading: "Enhanced User Adoption",
     Description:
       "A CRM designed for your workflows will be more intuitive and user-friendly for your team.",
   },
   {
-    Icon: "Chart Line Up",
+    Icon: "https://cdn-icons-png.flaticon.com/128/1357/1357782.png",
     Heading: "Improved Sales and Customer Service",
     Description:
       "Optimize your sales pipeline and provide exceptional customer service with a custom-built CRM.",
   },
   {
-    Icon: "Lock & Up/Down Arrows",
+    Icon: "https://cdn-icons-png.flaticon.com/128/1828/1828471.png",
     Heading: "Data Security and Scalability ",
     Description:
       "Enjoy maximum control over your data and ensure your CRM scales with your business growth.",
   },
   {
-    Icon: "Money Bag",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2953/2953362.png",
     Heading: "Increased Efficiency and ROI",
     Description:
       "Streamline workflows and maximize the return on investment in your CRM system.",
   },
   {
-    Icon: "Trophy",
+    Icon: "https://cdn-icons-png.flaticon.com/128/795/795323.png",
     Heading: "Competitive Advantage",
     Description:
       "Gain a unique edge with a CRM that perfectly supports your business model.",
@@ -163,30 +163,30 @@ const CustomCRM = [
 ];
 const TTDevelopment = [
   {
-    Icon: "Smiley Face with Heart",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2691/2691117.png",
     Heading: "Improved Customer Satisfaction",
     Description:
       "Faster resolution times and better communication lead to happier customers.",
   },
   {
-    Icon: "Two Shaking Hands",
+    Icon: "https://cdn-icons-png.flaticon.com/128/8879/8879568.png",
     Heading: "Enhanced Team Collaboration",
     Description:
       "Enable efficient collaboration between support agents and internal teams.",
   },
   {
-    Icon: "clock",
+    Icon: "https://cdn-icons-png.flaticon.com/128/3240/3240587.png",
     Heading: "Increased Operational Efficiency ",
     Description: "Streamline support processes and reduce response times.",
   },
   {
-    Icon: "Line Graph",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2285/2285559.png",
     Heading: "Data-Driven Insights ",
     Description:
       "Gain valuable data on customer support trends and improve service quality.",
   },
   {
-    Icon: "Up/Down Arrows & Gear",
+    Icon: "https://cdn-icons-png.flaticon.com/128/15063/15063171.png",
     Heading: "Scalability and Customization",
     Description:
       "Our ticketing tools adapt to your growing needs and allow for custom configurations.",
@@ -194,31 +194,31 @@ const TTDevelopment = [
 ];
 const DigitalMarketing = [
   {
-    Icon: "Bullhorn",
+    Icon: "https://cdn-icons-png.flaticon.com/128/1483/1483255.png",
     Heading: "Increased Brand Awareness",
     Description:
       "Reach a wider audience and establish your brand in the online marketplace.",
   },
   {
-    Icon: "Magnet",
+    Icon: "https://cdn-icons-png.flaticon.com/128/7457/7457558.png",
     Heading: "Targeted Lead Generation ",
     Description:
       "Attract qualified leads who are genuinely interested in your products or services.",
   },
   {
-    Icon: "Arrow Pointing Up",
+    Icon: "https://cdn-icons-png.flaticon.com/128/9240/9240837.png",
     Heading: "Improved Conversion Rates",
     Description:
       "Turn website visitors into paying customers with compelling marketing campaigns.",
   },
   {
-    Icon: "Bar Graph",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2214/2214523.png",
     Heading: "Measurable Results",
     Description:
       "Track and analyze marketing performance to optimize your strategies for maximum impact.",
   },
   {
-    Icon: "Light Bulb",
+    Icon: "https://cdn-icons-png.flaticon.com/128/566/566410.png",
     Heading: "Data-Driven Decision Making ",
     Description:
       "Make informed marketing decisions based on real data and insights.",
@@ -226,30 +226,30 @@ const DigitalMarketing = [
 ];
 const WebDesign = [
   {
-    Icon: "Star",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2893/2893811.png",
     Heading: "Enhanced Brand Image ",
     Description:
       "Elevate your brand image with a professional and visually appealing website.",
   },
   {
-    Icon: "Smiley Face",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2691/2691117.png",
     Heading: "Improved User Engagement ",
     Description:
       "Keep visitors engaged with a user-friendly and intuitive website design.",
   },
   {
-    Icon: "Arrow Pointing Up",
+    Icon: "https://cdn-icons-png.flaticon.com/128/5083/5083001.png",
     Heading: "Increased Conversions ",
     Description:
       "Motivate visitors to take action with clear calls to action and a compelling design.",
   },
   {
-    Icon: "Light Bulb",
+    Icon: "https://cdn-icons-png.flaticon.com/128/11564/11564234.png",
     Heading: "Memorable First Impression",
     Description: "Make a lasting positive impression on potential customers.",
   },
   {
-    Icon: "Trophy",
+    Icon: "https://cdn-icons-png.flaticon.com/128/2164/2164820.png",
     Heading: "Competitive Advantage",
     Description:
       "Stand out from the competition with a unique and modern website design.",
@@ -257,31 +257,31 @@ const WebDesign = [
 ];
 const UI_UXDesign = [
   {
-    Icon: "Smiley Face",
+    Icon: "https://cdn-icons-png.flaticon.com/128/14007/14007621.png",
     Heading: "Enhanced User Engagement",
     Description:
       "Keep users engaged and interacting with your product or website.",
   },
   {
-    Icon: "Smiley Face with Heart",
+    Icon: "https://cdn-icons-png.flaticon.com/128/8915/8915911.png",
     Heading: "Increased User Satisfaction",
     Description:
       "Create a frustration-free experience that users will appreciate.",
   },
   {
-    Icon: "Arrow Pointing Up",
+    Icon: "https://cdn-icons-png.flaticon.com/128/11454/11454906.png",
     Heading: "Improved Conversion Rates",
     Description:
       " Lead users towards desired actions with a well-designed UI and UX flow.",
   },
   {
-    Icon: "Money Bag with Minus Sign",
+    Icon: "https://cdn-icons-png.flaticon.com/128/7004/7004313.png",
     Heading: "Reduced Support Costs ",
     Description:
       "An intuitive design minimizes user confusion and support requests.",
   },
   {
-    Icon: "Fingerprint",
+    Icon: "https://cdn-icons-png.flaticon.com/128/6692/6692271.png",
     Heading: "Brand Differentiation",
     Description:
       "Stand out from the competition with a user interface that reflects your brand identity.",
@@ -348,7 +348,7 @@ function Service() {
                 {softwareDevelopment.map((item, index) => (
                   <div
                     key={index}
-                    className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                    className="w-full sm:w-80 h-56 bg-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                   >
                     <div className="flex items-center  p-3 gap-2">
                       {" "}
@@ -361,14 +361,7 @@ function Service() {
                   </div>
                 ))}
               </div>
-              <div className="flex justify-center py-8">
-                <Link
-                  to="/contact"
-                  className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-                >
-                  Schedule a Consultation
-                </Link>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -408,7 +401,11 @@ function Service() {
                 >
                   <div className="flex items-center  p-3 gap-2">
                     {" "}
-                    <img src={item.Icon} className='w-14' alt="Web Development Image" />
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -457,14 +454,18 @@ function Service() {
           <div className="flex flex-col itmes-center justify-center">
             <p className="text-center text-lg my-4">Here's what we offer:</p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {softwareDevelopment.map((item, index) => (
+              {CRM.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
                     {" "}
-                    <p>{item.Icon}</p>
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -473,14 +474,7 @@ function Service() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center py-8">
-              <Link
-                to="/contact"
-                className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-              >
-                Schedule a Consultation
-              </Link>
-            </div>
+           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
@@ -512,14 +506,18 @@ function Service() {
           <div className="flex flex-col itmes-center justify-center">
             <p className="text-center text-lg my-4">Here's what we offer:</p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {softwareDevelopment.map((item, index) => (
+              {GenerativeAI.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
                     {" "}
-                    <p>{item.Icon}</p>
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -528,14 +526,7 @@ function Service() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center py-8">
-              <Link
-                to="/contact"
-                className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-              >
-                Schedule a Consultation
-              </Link>
-            </div>
+           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
@@ -567,14 +558,18 @@ function Service() {
           <div className="flex flex-col itmes-center justify-center">
             <p className="text-center text-lg my-4">Here's what we offer:</p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {softwareDevelopment.map((item, index) => (
+              {CustomCRM.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white  flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
                     {" "}
-                    <p>{item.Icon}</p>
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -583,14 +578,7 @@ function Service() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center py-8">
-              <Link
-                to="/contact"
-                className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-              >
-                Schedule a Consultation
-              </Link>
-            </div>
+           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
@@ -624,14 +612,18 @@ function Service() {
           <div className="flex flex-col itmes-center justify-center">
             <p className="text-center text-lg my-4">Here's what we offer:</p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {softwareDevelopment.map((item, index) => (
+              {TTDevelopment.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white  flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
                     {" "}
-                    <p>{item.Icon}</p>
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -640,14 +632,7 @@ function Service() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center py-8">
-              <Link
-                to="/contact"
-                className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-              >
-                Schedule a Consultation
-              </Link>
-            </div>
+            
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
@@ -683,14 +668,17 @@ function Service() {
           <div className="flex flex-col itmes-center justify-center">
             <p className="text-center text-lg my-4">Here's what we offer:</p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {softwareDevelopment.map((item, index) => (
+              {DigitalMarketing.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white  flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
-                    {" "}
-                    <p>{item.Icon}</p>
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -699,14 +687,7 @@ function Service() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center py-8">
-              <Link
-                to="/contact"
-                className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-              >
-                Schedule a Consultation
-              </Link>
-            </div>
+           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
@@ -740,14 +721,17 @@ function Service() {
           <div className="flex flex-col itmes-center justify-center">
             <p className="text-center text-lg my-4">Here's what we offer:</p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {softwareDevelopment.map((item, index) => (
+              {WebDesign.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
-                    {" "}
-                    <p>{item.Icon}</p>
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -756,15 +740,8 @@ function Service() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center py-8">
-              <Link
-                to="/contact"
-                className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-              >
-                Schedule a Consultation
-              </Link>
-            </div>
-          </div>
+            
+        </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row gap-4 bg-white rounded border border-gray-200 p-5">
@@ -799,14 +776,17 @@ function Service() {
           <div className="flex flex-col itmes-center justify-center">
             <p className="text-center text-lg my-4">Here's what we offer:</p>
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {softwareDevelopment.map((item, index) => (
+              {UI_UXDesign.map((item, index) => (
                 <div
                   key={index}
-                  className="w-full sm:w-80 h-56 bg-white hover:bg-gray-900 text-blue-500 hover:text-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
+                  className="w-full sm:w-80 h-56 bg-white flex flex-col justify-between items-center py-6 hover:scale-105 hover:shadow-lg duration-500 border border-gray-200   rounded"
                 >
                   <div className="flex items-center  p-3 gap-2">
-                    {" "}
-                    <p>{item.Icon}</p>
+                    <img
+                      src={item.Icon}
+                      className="w-14"
+                      alt="Web Development Image"
+                    />
                     <p className="text-base font-bold  ">{item.Heading}</p>
                   </div>
                   <p className="py-1 text-center px-2 text-gray-700">
@@ -815,14 +795,7 @@ function Service() {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center py-8">
-              <Link
-                to="/contact"
-                className="text-center w-72 bg-blue-500 text-white p-4 hover:bg-blue-400 duration-400 rounded"
-              >
-                Schedule a Consultation
-              </Link>
-            </div>
+            
           </div>
         </div>
       </section>

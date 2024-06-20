@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-
+// import Logo from "../assets/imgs/Logo.png";
 
 
 function Footer() {
@@ -10,6 +10,7 @@ function Footer() {
         <div className="flex flex-col lg:flex-row justify-between border-b">
           <div className="py-10">
             <div className="pb-5">
+              {/* <img src={Logo} className="w-8" alt="" /> */}
               <h1 className="text-3xl md:text-5xl">NoblesseTech</h1>
             </div>
             <div className="flex flex-col gap-6">
