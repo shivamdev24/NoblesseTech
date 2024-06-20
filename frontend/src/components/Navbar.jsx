@@ -19,7 +19,7 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white mx-auto fixed top-0 w-full z-40">
+    <Disclosure as="nav" className="bg-white mx-auto shadow fixed top-0 w-full z-40">
       {({ open }) => (
         <>
           <div className="  bg-white max-w-7xl px-2 sm:px-6 lg:px-8">
