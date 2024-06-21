@@ -1,5 +1,5 @@
 import React from "react";
-import Awards from "../assets/imgs/awards.png";
+// import Awards from "../assets/imgs/awards.png";
 
 function Contact() {
   return (

@@ -111,24 +111,31 @@ const navigation = [
 
 export default function Navbar() {
   const navbarRef = useRef(null);
-  const [logoSrc, setLogoSrc] = useState(LogoDark);
+  const [logoSrc, setLogoSrc] = useState(LogoWhite);
 
   useEffect(() => {
     const handleScroll = () => {
       const section2 = document.getElementById("section2");
       if (section2) {
         const section2Top = section2.getBoundingClientRect().top;
-        if (section2Top <= 0) {
+        if (section2Top <= 12) {
           navbarRef.current.classList.add("bg-white", "text-black");
           navbarRef.current.classList.remove("bg-black", "text-white");
            setLogoSrc(LogoDark);
-        } else {
+        } else  {
           navbarRef.current.classList.add("bg-black", "text-white");
           navbarRef.current.classList.remove("bg-white", "text-black");
           setLogoSrc(LogoWhite);
         }
       }
     };
+
+    if (window.scrollY === 0) {
+      navbarRef.current.classList.add("bg-black", "text-white");
+      navbarRef.current.classList.remove("bg-white", "text-black");
+      setLogoSrc(LogoWhite); // Assuming white logo for black navbar
+    }
+  
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -137,7 +144,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-white mx-auto shadow duration-500 fixed top-0 w-full z-40"
+      className="bg-black text-white mx-auto shadow duration-500 fixed top-0 w-full z-40"
       ref={navbarRef}
     >
       {({ open }) => (
