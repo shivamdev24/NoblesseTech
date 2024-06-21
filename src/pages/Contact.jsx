@@ -3,7 +3,7 @@ import Awards from "../assets/imgs/awards.png";
 
 function Contact() {
   return (
-    <section className="h-full w-ful lg:mt-[6rem] bg-white text-black">
+    <section id="section2" className="h-full w-ful lg:mt-[6rem] bg-white text-black">
       <div className="lg:w-[80%] lg:mx-auto w-full px-5 lg:px-0 ">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-[40%] py-20">

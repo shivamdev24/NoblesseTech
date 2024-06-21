@@ -13,6 +13,7 @@ import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
 import Service from './pages/Service.jsx';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    
     <RouterProvider router={router} />
   </React.StrictMode>
 );

@@ -309,7 +309,7 @@ export default function Home() {
         </HeroHighlight>
       </section>
 
-      <section className="py-20 bg-black text-white relative">
+      <section id="section2" className="py-20 bg-black text-white relative">
         <div className="md:w-[90%] md:mx-auto px-5 sm:px-0 text-center ">
           <h1 className="md:w-[90%] relative z-20 text-center md:mx-auto font-bold text-3xl md:text-5xl ">
             Boost Your business with the Best IT Company around.

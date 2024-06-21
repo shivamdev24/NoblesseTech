@@ -294,7 +294,7 @@ const UI_UXDesign = [
 function Service() {
   return (
     <div>
-      <section className="bg-gray-800 h-[80vh] flex flex-col items-center gap-4 text-center pt-32 text-white">
+      <section className="bg-black h-[80vh] flex flex-col items-center gap-4 text-center pt-32 text-white">
         <div className="w-full md:w-[80%] md:mx-auto py-16 px-5">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold">
             Empower Your Business with Cutting-Edge IT Solutions
@@ -313,7 +313,7 @@ function Service() {
           </div>
         </div>
       </section>
-      <section className="">
+      <section id="section2" className="">
         <div className="py-16 px-5">
           <div className="w-full md:w-[80%] md:mx-auto  p-5">
             <div className="flex flex-col sm:flex-row gap-4 bg-white rounded border border-gray-200 p-5">
@@ -361,14 +361,13 @@ function Service() {
                   </div>
                 ))}
               </div>
-              
             </div>
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row-reverse gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?t=st=1718957169~exp=1718960769~hmac=50dd1b35b03ea80f031d3eec913c7a7f0016027458f9dc143fd5cde6342a38b9&w=900  "
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -427,7 +426,7 @@ function Service() {
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-vector/crm-isometric-flowchart-with-customer-relationship-management-symbols-vector-illustration_98292-9062.jpg?t=st=1718957240~exp=1718960840~hmac=42f2a2ac33663b5f5db3fe1236ff135dc7d5f1fd6373bcfb409ad4c29f1b6261&w=1060"
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -474,13 +473,12 @@ function Service() {
                 </div>
               ))}
             </div>
-           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row-reverse gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg?t=st=1718957167~exp=1718960767~hmac=524dbd740c99ea6084fa9891b841b9d865ea7ca1e5d5bfbd94e72cffd7146778&w=900"
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -526,13 +524,12 @@ function Service() {
                 </div>
               ))}
             </div>
-           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-photo/customer-relationship-management-concept_23-2150038405.jpg?t=st=1718957378~exp=1718960978~hmac=e5d0453ed5e2a7e99b241e0fb1955c71fe761eaef1d7fc571e03347e293a34af&w=900"
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -578,13 +575,12 @@ function Service() {
                 </div>
               ))}
             </div>
-           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row-reverse gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-photo/travel-navigation-journey-vacation-trip-laptop-concept_53876-125037.jpg?t=st=1718957451~exp=1718961051~hmac=801dec6a5b155f5654bda8222de1d13a8b9a332ccb359bbd0e8cd09c046d4a5e&w=826"
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -632,13 +628,12 @@ function Service() {
                 </div>
               ))}
             </div>
-            
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?t=st=1718955725~exp=1718959325~hmac=ea9ec7d3959fa15e73c4f869126e838dbe40fe4702859034e434e8cb0a0e4a33&w=826"
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -687,13 +682,12 @@ function Service() {
                 </div>
               ))}
             </div>
-           
           </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row-reverse gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-photo/web-design-technology-browsing-programming-concept_53876-163260.jpg?t=st=1718956659~exp=1718960259~hmac=5e963f9ce358eee7c3db881a7e4a4d57a7b73af892d71556c4b125bc34373651&w=740"
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -740,13 +734,12 @@ function Service() {
                 </div>
               ))}
             </div>
-            
-        </div>
+          </div>
         </div>
         <div className="w-full md:w-[80%] md:mx-auto  p-5">
           <div className="flex flex-col sm:flex-row gap-4 bg-white rounded border border-gray-200 p-5">
             <img
-              src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?t=st=1718806094~exp=1718809694~hmac=e85c595f67488eaf2350eaf1e4d75bfb336ccb81b562ef8f00761271bd7abc54&w=900"
+              src="https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?t=st=1718956375~exp=1718959975~hmac=bddb3e5c889138297ec5f770d098236545cfa7ef07b49a8480f6f3b0233ad8f6&w=900"
               alt="Software_Developemnt"
               className="sm:w-[30vw] w-full flex rounded object-cover"
             />
@@ -795,7 +788,6 @@ function Service() {
                 </div>
               ))}
             </div>
-            
           </div>
         </div>
       </section>
