@@ -4,7 +4,7 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <div className="h-64 md:h-96 w-full py-32 bg-black text-white">
+      <div className="h-72 md:h-96 w-full py-32 bg-black text-white">
         <div className="md:w-[80%] md:mx-auto flex flex-col items-center justify-center px-5">
           <h1 className="text-4xl lg:text-6xl font-bold ">
             Contact NoblesseTech
