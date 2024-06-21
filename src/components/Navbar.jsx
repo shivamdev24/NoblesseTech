@@ -118,11 +118,11 @@ export default function Navbar() {
       const section2 = document.getElementById("section2");
       if (section2) {
         const section2Top = section2.getBoundingClientRect().top;
-        if (section2Top <= 12) {
+        if (section2Top <= 0) {
           navbarRef.current.classList.add("bg-white", "text-black");
           navbarRef.current.classList.remove("bg-black", "text-white");
            setLogoSrc(LogoDark);
-        } else  {
+        } else if (window.scrollY === 0)  {
           navbarRef.current.classList.add("bg-black", "text-white");
           navbarRef.current.classList.remove("bg-white", "text-black");
           setLogoSrc(LogoWhite);
@@ -130,11 +130,7 @@ export default function Navbar() {
       }
     };
 
-    if (window.scrollY === 0) {
-      navbarRef.current.classList.add("bg-black", "text-white");
-      navbarRef.current.classList.remove("bg-white", "text-black");
-      setLogoSrc(LogoWhite); // Assuming white logo for black navbar
-    }
+   
   
 
     window.addEventListener("scroll", handleScroll);
