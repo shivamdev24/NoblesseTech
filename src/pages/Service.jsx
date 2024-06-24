@@ -4,6 +4,7 @@ import { ClockIcon, ChartBarIcon, LightBulbIcon ,ArrowsUpDownIcon , TrophyIcon,
 
  } from "@heroicons/react/24/solid";
 
+  import ServiceHero from "../assets/imgs/serviceHero.svg";
 
 
 
@@ -294,22 +295,33 @@ const UI_UXDesign = [
 function Service() {
   return (
     <div>
-      <section className="bg-black h-[80vh] flex flex-col items-center gap-4 text-center pt-32 text-white">
-        <div className="w-full md:w-[80%] md:mx-auto py-16 px-5">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold">
-            Empower Your Business with Cutting-Edge IT Solutions
-          </h1>
+      <section className=" relative bg-black h-full md:h-[100vh] flex flex-col items-center gap-4 text-center pt-10  md:pt-32 text-white">
+        {/* <div className="h-[80vh] w-full absolute top-0 bg-black opa city-[.6]"></div> */}
+        <div className="w-full  justify-between flex flex-col-reverse md:flex-row py-16 px-5 md:px-10 relative z-20 items-center">
+          <div className="md:w-[70%] flex flex-col">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold">
+              Empower Your Business with Cutting-Edge IT Solutions
+            </h1>
 
-          <h2 className="text-xl md:w-[70%] md:mx-auto sm:text-2xl md:text-4xl">
-            From web development to custom software, we've got you covered.
-          </h2>
-          <div className="py-8">
-            <Link
-              to="/contact"
-              className="text-lg p-4  w-80 bg-blue-400 rounded  text-white hover:bg-blue-600 hover:text-white duration-500 "
-            >
-              Transform Your Technology.
-            </Link>
+            <h2 className="text-lg md:w-[70%] md:mx-auto sm:text-2xl md:text-3xl">
+              From web development to custom software, we've got you covered.
+            </h2>
+            <div className="py-8">
+              <Link
+                to="/contact"
+                className="text-lg p-4 e-full md:w-80 bg-blue-400 rounded  text-white hover:bg-blue-600 hover:text-white duration-500 "
+              >
+                Transform Your Technology.
+              </Link>
+            </div>
+          </div>
+
+          <div className=" md:w-[40%] ">
+            <img
+              src={ServiceHero}
+              alt="Service bg image"
+              className="md:w-[90vw] md:h-[60vh] object-contain object-top "
+            />
           </div>
         </div>
       </section>
