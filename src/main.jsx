@@ -5,8 +5,9 @@ import App from './App.jsx'
 import './index.css'
 
 import {
-  createBrowserRouter,
-  RouterProvider,
+  BrowserRouter,
+  Routes,
+  Route
   
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
@@ -14,30 +15,23 @@ import Contact from './pages/Contact.jsx';
 import Service from './pages/Service.jsx';
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
-      },
-      {
-        path: "service",
-        element: <Service />,
-      },
-    ],
-  },
-]);
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     
-    <RouterProvider router={router} />
+
+    <BrowserRouter>
+    <Routes>
+      <Route path='/'  element={<App />}  >
+      <Route path=''  element={<Home />}  />
+      <Route path='/contact'  element={<Contact />}  />
+      <Route path='/service'  element={<Service />}  />
+
+
+      </Route>
+    </Routes>
+    
+    </BrowserRouter>
   </React.StrictMode>
 );
