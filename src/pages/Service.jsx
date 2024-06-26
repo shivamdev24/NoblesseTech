@@ -4,7 +4,7 @@ import { ClockIcon, ChartBarIcon, LightBulbIcon ,ArrowsUpDownIcon , TrophyIcon,
 
  } from "@heroicons/react/24/solid";
 
-  import ServiceHero from "../assets/imgs/serviceHero.svg";
+ import ServiceHero from "../assets/imgs/serviceHero.svg"
 
 
 

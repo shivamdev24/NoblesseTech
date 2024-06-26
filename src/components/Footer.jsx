@@ -36,8 +36,7 @@ function Footer() {
             <div className="flex justify-end gap-5 ">
               <Link to="/contact">Contact Us</Link>
               <Link to="/service">Service</Link>
-              <Link to="/">Privacy Policy</Link>
-              <Link to="/">Terms of use</Link>
+              <Link to="/TermsCondition">Terms & Privacy Policy</Link>
             </div>
             {/* <div className="flex gap-7 text-xs sm:text-base justify-end">
               <a href="#">Local language information</a>
