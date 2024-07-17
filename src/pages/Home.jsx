@@ -1,5 +1,5 @@
-import Trucking from "../assets/imgs/images.jpeg";
-import Helpdesk from "../assets/imgs/helpdesk.jpeg";
+import ShelveshTech from "../assets/imgs/shelvesh2.png";
+import Skycandy from "../assets/imgs/skycandy.png";
 
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "../components/ui/HeroHighlight";
@@ -8,15 +8,15 @@ import { Link } from "react-router-dom";
 
 const cardsCaseStudy = [
   {
-    img: Trucking,
+    img: ShelveshTech,
     location: "",
-    path: "Trucking & Logistics",
+    path: "Sheveshtech",
     link: "/",
   },
   {
-    img: Helpdesk,
+    img: Skycandy,
     location: "",
-    path: "Hepldesk (Ticketing Tool)",
+    path: "Skycandy",
     link: "/",
   },
 ];
@@ -333,9 +333,9 @@ export default function Home() {
             {cardsCaseStudy.map((items, index) => (
               <div
                 key={index}
-                className="rounded overflow-hidden hover:shadow-gray-300 border border-gray-200 h-[35vh] w-full lg:w-[25vw] flex flex-col justify-center items-center hover:bg-white hover:text-black text-gray-600 hover:scale-105 duration-500 hover:shadow-lg"
+                className="rounded overflow-hidden hover:shadow-gray-300  border-gray-200 h-[35vh] w-full lg:w-[25vw] flex flex-col justify-center items-center hover:bg-white hover:text-black text-gray-600 hover:scale-105 duration-500 hover:shadow-lg"
               >
-                <img src={items.img} className="object-cover" alt="" />
+                <img src={items.img} className="object-cover rounded border" alt="" />
 
                 <div className="mt-3 p-2">
                   <p className="text-base "> {items.path} </p>
